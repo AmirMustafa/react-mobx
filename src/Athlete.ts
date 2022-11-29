@@ -1,3 +1,4 @@
+import { makeObservable, observable } from "mobx";
 class Athlete {
   name: string;
   age: number;
@@ -7,6 +8,12 @@ class Athlete {
     this.name = name;
     this.age = age;
     this.teamHistory = [];
+
+    makeObservable(this, {
+      name: observable,
+      age: observable,
+      teamHistory: true,
+    });
   }
 }
 
