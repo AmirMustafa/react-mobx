@@ -11,13 +11,21 @@ function Roaster () {
             <tr>
                 <th>Name</th>
                 <th>Age</th>
+                <th>Is it Birthday ?</th>
             </tr>
             {
                 [lebronJames, stephCurry].map((athelete) => {
                     return (
                         <tr key={athelete.name}>
-                            <th>{athelete.name}</th>
-                            <th>{athelete.age}</th>
+                            <td>{athelete.name}</td>
+                            <td>{athelete.age}</td>
+                            <td>
+                                <button
+                                    type="button"
+                                    style={{ width: "100%" }}
+                                    onClick={ () => athelete.wishHappyBirthday() }
+                                >Wish Happy Birthday 🍰🎊</button>
+                            </td>
                         </tr>
                     );
                 })
