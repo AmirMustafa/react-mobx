@@ -12,7 +12,7 @@ class Athlete {
     makeObservable(this, {
       name: observable,
       age: observable,
-      teamHistory: true,
+      teamHistory: true
     });
   }
 }
