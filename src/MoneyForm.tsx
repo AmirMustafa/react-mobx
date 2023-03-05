@@ -1,4 +1,4 @@
-import { action, observable } from 'mobx';
+import { action, computed, observable, toJS } from 'mobx';
 import { observer } from 'mobx-react';
 
 type FormState = {
@@ -14,15 +14,12 @@ const formState: FormState = observable({
 });
 
 const MoneyForm = () => {
-    const calculateTotal = action((formState: FormState) => {
-        formState.total = formState.salary * formState.years;
-        console.log('formState.total ===> ', formState.salary, formState.years, formState.total);
-    })
+    const totalValue = computed(() => formState.salary * formState.years);
 
     return (
         <div style={{ display: "flex", flexDirection: "column" }}>
             <h1 style={{ marginBottom: 0 }}>Money Talks</h1>
-            <p>Total: { formState.total }</p>
+            <>Total: { toJS(totalValue) }</>
             <input 
                 type='number'  
                 placeholder="Years..."
@@ -39,7 +36,6 @@ const MoneyForm = () => {
                     formState.salary = +e.target.value
                 } )}
             />
-            <button type="button" onClick={() => calculateTotal(formState)}>Calculate Total</button>
         </div>
     );
 }
