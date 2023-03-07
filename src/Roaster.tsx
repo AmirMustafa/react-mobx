@@ -14,6 +14,7 @@ function Roaster () {
                 <th>Team</th>
                 <th>Trade Form</th>
                 <th>Is it Birthday ?</th>
+                <th>Salary</th>
             </tr>
             {
                 players.map((athlete) => {
@@ -32,6 +33,7 @@ function Roaster () {
                                     onClick={ () => athlete.wishHappyBirthday() }
                                 >Wish Happy Birthday 🍰🎊</button>
                             </td>
+                            <td>{athlete.salary}</td>
                         </tr>
                     );
                 })

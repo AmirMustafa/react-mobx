@@ -4,8 +4,8 @@ import MoneyForm from './MoneyForm';
 import Athelete from './Athlete';
 import { TeamStoreProvider } from "./teamStore"; 
 
-const lebronJames = new Athelete("Lebron James", 37, 5_000_000);
-const stephCurry = new Athelete("Steph Curry", 34, 7_000_000);
+const lebronJames = new Athelete("Lebron James", 37, 50_000);
+const stephCurry = new Athelete("Steph Curry", 34, 70_000);
 
 // Assume this coming from Backend - Simulating for now array
 function getPlayersFromBackend(): Athelete[] {
