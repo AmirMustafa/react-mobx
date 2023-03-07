@@ -30,7 +30,7 @@ export default class TeamStore {
         );
     }
 
-    addPlayer(player: Athlete) {
+    addPlayer = (player: Athlete) => {
         this.players.push(player);
     }
 }
