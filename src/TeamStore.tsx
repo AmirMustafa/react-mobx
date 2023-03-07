@@ -13,7 +13,7 @@ export default class TeamStore {
         this.state = state;
     }
     
-    mascot: string = "";
+    mascot: string = "New York";
     setMascot = (mascot: string) => {
         this.mascot = mascot;
     }
@@ -26,9 +26,10 @@ export default class TeamStore {
 
     get totalYearlyCost(): number {
         return this.players.reduce(
-            (totalSalary, currentAthlete) => totalSalary * currentAthlete.salary, 0
+          (totalSalary, currentAthlete) => totalSalary + currentAthlete.salary,
+          0
         );
-    }
+      }
 
     addPlayer = (player: Athlete) => {
         this.players.push(player);
