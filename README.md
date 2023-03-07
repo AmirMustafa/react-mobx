@@ -1,46 +1,22 @@
-# Getting Started with Create React App
+# MobX React TS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is written in React.ts technology. Integrated MobX store with React. The idea on this project was to understand MobX store. MobX is another store like Redux.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Screenshots:
 
-### `yarn start`
+<img width="1920" alt="Screenshot 2023-03-07 at 4 50 49 PM" src="https://user-images.githubusercontent.com/15896579/223409163-f58ea152-ecaa-4a74-bcae-1579f083bff9.png">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<img width="1920" alt="Screenshot 2023-03-07 at 4 51 48 PM" src="https://user-images.githubusercontent.com/15896579/223409196-c6dff916-b3ac-4b5f-895a-bd8786efb3a7.png">
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<img width="1920" alt="Screenshot 2023-03-07 at 4 52 04 PM" src="https://user-images.githubusercontent.com/15896579/223409216-44397ec6-d289-4acb-9e3f-7d3f486067a5.png">
 
-### `yarn test`
+<img width="1920" alt="Screenshot 2023-03-07 at 4 54 02 PM" src="https://user-images.githubusercontent.com/15896579/223409239-758eb2c4-ff79-4f5f-845b-26b53571f6d9.png">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img width="1920" alt="Screenshot 2023-03-07 at 4 54 28 PM" src="https://user-images.githubusercontent.com/15896579/223409269-4ebd52a5-1b12-4bd6-96d7-6a1a617527bf.png">
 
-### `yarn build`
+<img width="1920" alt="Screenshot 2023-03-07 at 4 55 12 PM" src="https://user-images.githubusercontent.com/15896579/223409292-1806afc4-5884-4568-a60f-6c3ca6875af3.png">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img width="1920" alt="Screenshot 2023-03-07 at 4 55 29 PM" src="https://user-images.githubusercontent.com/15896579/223409314-6056f3af-dcf7-4670-8c25-a9ba9cb253a7.png">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img width="1920" alt="Screenshot 2023-03-07 at 4 55 41 PM" src="https://user-images.githubusercontent.com/15896579/223409340-de8e845d-3bba-44c5-bea6-33980e7f0198.png">
